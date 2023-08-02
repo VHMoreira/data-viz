@@ -1,4 +1,11 @@
 # Data viz
+![Alt text](image.png)
+
+## Sobre o projeto
+O projeto consiste em uma aplicação que gera um gráfico a partir de um arquivo csv. O usuário pode filtrar os dados por eixo x e y.
+## Features
+- Geração de gráfico a partir de um arquivo csv
+- Filtragem de dados por eixo x e y
 ## Requerimentos
 - Python 3.10+
 - Pip 21.1+
