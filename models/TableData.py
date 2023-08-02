@@ -20,7 +20,7 @@ class TableData:
         self.sizes = []
 
     def read(self):
-        self.data_frame = pd.read_csv("data.csv", delimiter=',')
+        self.data_frame = pd.read_csv("static/data.csv", delimiter=',')
 
         for row in self.data_frame['posicao']:
             x, y = row.replace('(', '').replace(')', '').split('/')
